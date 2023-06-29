@@ -1,0 +1,772 @@
+[
+    {
+        "label": "sys,",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys.",
+        "description": "sys.",
+        "detail": "sys.",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "mixer",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "mixer",
+        "description": "mixer",
+        "detail": "mixer",
+        "documentation": {}
+    },
+    {
+        "label": "tkinter",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "tkinter",
+        "description": "tkinter",
+        "detail": "tkinter",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "tkinter",
+        "description": "tkinter",
+        "isExtraImport": true,
+        "detail": "tkinter",
+        "documentation": {}
+    },
+    {
+        "label": "fnmatch",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "fnmatch",
+        "description": "fnmatch",
+        "detail": "fnmatch",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "pygame",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pygame",
+        "description": "pygame",
+        "detail": "pygame",
+        "documentation": {}
+    },
+    {
+        "label": "mixer",
+        "importPath": "pygame",
+        "description": "pygame",
+        "isExtraImport": true,
+        "detail": "pygame",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "pygame.locals",
+        "description": "pygame.locals",
+        "isExtraImport": true,
+        "detail": "pygame.locals",
+        "documentation": {}
+    },
+    {
+        "label": "time",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "time",
+        "description": "time",
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "random",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "random",
+        "description": "random",
+        "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "default_timer",
+        "importPath": "timeit",
+        "description": "timeit",
+        "isExtraImport": true,
+        "detail": "timeit",
+        "documentation": {}
+    },
+    {
+        "label": "Rectangle",
+        "kind": 6,
+        "importPath": ".vscode.areaandperi",
+        "description": ".vscode.areaandperi",
+        "peekOfCode": "class Rectangle:\n    def __init__(self, length, breadth):\n        self.length = length\n        self.breadth = breadth\n    def area(self):\n        return self.length * self.breadth\n    def perimeter(self):\n        return 2 * (self.length + self.breadth)\nlength = float(input(\"Enter the length of the rectangle: \"))\nbreadth = float(input(\"Enter the breadth of the rectangle: \"))",
+        "detail": ".vscode.areaandperi",
+        "documentation": {}
+    },
+    {
+        "label": "length",
+        "kind": 5,
+        "importPath": ".vscode.areaandperi",
+        "description": ".vscode.areaandperi",
+        "peekOfCode": "length = float(input(\"Enter the length of the rectangle: \"))\nbreadth = float(input(\"Enter the breadth of the rectangle: \"))\nrect = Rectangle(length, breadth)\nprint(f\"Area of the rectangle is {rect.area():.2f}\")\nprint(f\"Perimeter of the rectangle is {rect.perimeter():.2f}\")",
+        "detail": ".vscode.areaandperi",
+        "documentation": {}
+    },
+    {
+        "label": "breadth",
+        "kind": 5,
+        "importPath": ".vscode.areaandperi",
+        "description": ".vscode.areaandperi",
+        "peekOfCode": "breadth = float(input(\"Enter the breadth of the rectangle: \"))\nrect = Rectangle(length, breadth)\nprint(f\"Area of the rectangle is {rect.area():.2f}\")\nprint(f\"Perimeter of the rectangle is {rect.perimeter():.2f}\")",
+        "detail": ".vscode.areaandperi",
+        "documentation": {}
+    },
+    {
+        "label": "rect",
+        "kind": 5,
+        "importPath": ".vscode.areaandperi",
+        "description": ".vscode.areaandperi",
+        "peekOfCode": "rect = Rectangle(length, breadth)\nprint(f\"Area of the rectangle is {rect.area():.2f}\")\nprint(f\"Perimeter of the rectangle is {rect.perimeter():.2f}\")",
+        "detail": ".vscode.areaandperi",
+        "documentation": {}
+    },
+    {
+        "label": "size",
+        "kind": 5,
+        "importPath": "ball",
+        "description": "ball",
+        "peekOfCode": "size = width, height = 800, 400\nspeed = [1, 1]\nbackground = 255, 255, 255\nscreen = pygame.display.set_mode(size)\npygame.display.set_caption(\"Bouncing ball\")\nball = pygame.image.load(\"ball.png\")\nballrect = ball.get_rect()\nwhile 1:\n    for event in pygame.event.get():\n        if event.type == pygame.QUIT:",
+        "detail": "ball",
+        "documentation": {}
+    },
+    {
+        "label": "speed",
+        "kind": 5,
+        "importPath": "ball",
+        "description": "ball",
+        "peekOfCode": "speed = [1, 1]\nbackground = 255, 255, 255\nscreen = pygame.display.set_mode(size)\npygame.display.set_caption(\"Bouncing ball\")\nball = pygame.image.load(\"ball.png\")\nballrect = ball.get_rect()\nwhile 1:\n    for event in pygame.event.get():\n        if event.type == pygame.QUIT:\n            sys.exit()",
+        "detail": "ball",
+        "documentation": {}
+    },
+    {
+        "label": "background",
+        "kind": 5,
+        "importPath": "ball",
+        "description": "ball",
+        "peekOfCode": "background = 255, 255, 255\nscreen = pygame.display.set_mode(size)\npygame.display.set_caption(\"Bouncing ball\")\nball = pygame.image.load(\"ball.png\")\nballrect = ball.get_rect()\nwhile 1:\n    for event in pygame.event.get():\n        if event.type == pygame.QUIT:\n            sys.exit()\n    ballrect = ballrect.move(speed)",
+        "detail": "ball",
+        "documentation": {}
+    },
+    {
+        "label": "screen",
+        "kind": 5,
+        "importPath": "ball",
+        "description": "ball",
+        "peekOfCode": "screen = pygame.display.set_mode(size)\npygame.display.set_caption(\"Bouncing ball\")\nball = pygame.image.load(\"ball.png\")\nballrect = ball.get_rect()\nwhile 1:\n    for event in pygame.event.get():\n        if event.type == pygame.QUIT:\n            sys.exit()\n    ballrect = ballrect.move(speed)\n    if ballrect.left < 0 or ballrect.right > width:",
+        "detail": "ball",
+        "documentation": {}
+    },
+    {
+        "label": "ball",
+        "kind": 5,
+        "importPath": "ball",
+        "description": "ball",
+        "peekOfCode": "ball = pygame.image.load(\"ball.png\")\nballrect = ball.get_rect()\nwhile 1:\n    for event in pygame.event.get():\n        if event.type == pygame.QUIT:\n            sys.exit()\n    ballrect = ballrect.move(speed)\n    if ballrect.left < 0 or ballrect.right > width:\n        speed[0] = -speed[0]\n    if ballrect.top < 0 or ballrect.bottom > height:",
+        "detail": "ball",
+        "documentation": {}
+    },
+    {
+        "label": "ballrect",
+        "kind": 5,
+        "importPath": "ball",
+        "description": "ball",
+        "peekOfCode": "ballrect = ball.get_rect()\nwhile 1:\n    for event in pygame.event.get():\n        if event.type == pygame.QUIT:\n            sys.exit()\n    ballrect = ballrect.move(speed)\n    if ballrect.left < 0 or ballrect.right > width:\n        speed[0] = -speed[0]\n    if ballrect.top < 0 or ballrect.bottom > height:\n        speed[1] = -speed[1]",
+        "detail": "ball",
+        "documentation": {}
+    },
+    {
+        "label": "choice",
+        "kind": 5,
+        "importPath": "calculator",
+        "description": "calculator",
+        "peekOfCode": "choice = input('''\nPlease select the type of operation you want to perform:\n+ for addition\n- for subtraction\n* for multiplication\n/ for division\n''')\nnum_1 = float(input('Enter your first number: '))\nnum_2 = float(input('Enter your second number: '))\nif choice == '+':",
+        "detail": "calculator",
+        "documentation": {}
+    },
+    {
+        "label": "num_1",
+        "kind": 5,
+        "importPath": "calculator",
+        "description": "calculator",
+        "peekOfCode": "num_1 = float(input('Enter your first number: '))\nnum_2 = float(input('Enter your second number: '))\nif choice == '+':\n    print('{} + {} = '.format(num_1, num_2))\n    print(num_1 + num_2)\nelif choice == '-':\n    print('{} - {} = '.format(num_1, num_2))\n    print(num_1 - num_2)\nelif choice == '*':\n    print('{} * {} = '.format(num_1, num_2))",
+        "detail": "calculator",
+        "documentation": {}
+    },
+    {
+        "label": "num_2",
+        "kind": 5,
+        "importPath": "calculator",
+        "description": "calculator",
+        "peekOfCode": "num_2 = float(input('Enter your second number: '))\nif choice == '+':\n    print('{} + {} = '.format(num_1, num_2))\n    print(num_1 + num_2)\nelif choice == '-':\n    print('{} - {} = '.format(num_1, num_2))\n    print(num_1 - num_2)\nelif choice == '*':\n    print('{} * {} = '.format(num_1, num_2))\n    print(num_1 * num_2)",
+        "detail": "calculator",
+        "documentation": {}
+    },
+    {
+        "label": "file",
+        "kind": 5,
+        "importPath": "file",
+        "description": "file",
+        "peekOfCode": "file = open(\"example.txt\", \"w\")\n# Write to the file\nfile.write(\"Hello World!\")\n# Close the file\nfile.close()\n# Open the file again\nfile = open(\"example.txt\", \"r\")\n# Read the contents of the file\ncontents = file.read()\n# Print the contents of the file",
+        "detail": "file",
+        "documentation": {}
+    },
+    {
+        "label": "file",
+        "kind": 5,
+        "importPath": "file",
+        "description": "file",
+        "peekOfCode": "file = open(\"example.txt\", \"r\")\n# Read the contents of the file\ncontents = file.read()\n# Print the contents of the file\nprint(contents)\n# Close the file\nfile.close()",
+        "detail": "file",
+        "documentation": {}
+    },
+    {
+        "label": "contents",
+        "kind": 5,
+        "importPath": "file",
+        "description": "file",
+        "peekOfCode": "contents = file.read()\n# Print the contents of the file\nprint(contents)\n# Close the file\nfile.close()",
+        "detail": "file",
+        "documentation": {}
+    },
+    {
+        "label": "insertion_sort",
+        "kind": 2,
+        "importPath": "insertion",
+        "description": "insertion",
+        "peekOfCode": "def insertion_sort(arr):\n    for i in range(1, len(arr)):\n        key = arr[i]\n        j = i - 1\n        while j >= 0 and key < arr[j]:\n            arr[j + 1] = arr[j]\n            j -= 1\n        arr[j + 1] = key\n    return arr\narr = [64, 25, 12, 22, 11]",
+        "detail": "insertion",
+        "documentation": {}
+    },
+    {
+        "label": "arr",
+        "kind": 5,
+        "importPath": "insertion",
+        "description": "insertion",
+        "peekOfCode": "arr = [64, 25, 12, 22, 11]\nprint(\"Original array:\", arr)\nprint(\"Sorted array:\", insertion_sort(arr))",
+        "detail": "insertion",
+        "documentation": {}
+    },
+    {
+        "label": "X",
+        "kind": 5,
+        "importPath": "matrixmul",
+        "description": "matrixmul",
+        "peekOfCode": "X = [[12,7,3],\n    [4 ,5,6],\n    [7 ,8,9]]\nY = [[5,8,1,2],\n    [6,7,3,0],\n    [4,5,9,1]]\nresult = [[0,0,0,0],\n         [0,0,0,0],\n         [0,0,0,0]]\nfor i in range(len(X)):",
+        "detail": "matrixmul",
+        "documentation": {}
+    },
+    {
+        "label": "Y",
+        "kind": 5,
+        "importPath": "matrixmul",
+        "description": "matrixmul",
+        "peekOfCode": "Y = [[5,8,1,2],\n    [6,7,3,0],\n    [4,5,9,1]]\nresult = [[0,0,0,0],\n         [0,0,0,0],\n         [0,0,0,0]]\nfor i in range(len(X)):\n   for j in range(len(Y[0])):\n       for k in range(len(Y)):\n           result[i][j] += X[i][k] * Y[k][j]",
+        "detail": "matrixmul",
+        "documentation": {}
+    },
+    {
+        "label": "result",
+        "kind": 5,
+        "importPath": "matrixmul",
+        "description": "matrixmul",
+        "peekOfCode": "result = [[0,0,0,0],\n         [0,0,0,0],\n         [0,0,0,0]]\nfor i in range(len(X)):\n   for j in range(len(Y[0])):\n       for k in range(len(Y)):\n           result[i][j] += X[i][k] * Y[k][j]\nfor r in result:\n   print(r)",
+        "detail": "matrixmul",
+        "documentation": {}
+    },
+    {
+        "label": "Merge_Sort",
+        "kind": 2,
+        "importPath": "merge",
+        "description": "merge",
+        "peekOfCode": "def Merge_Sort(array):\n    if len(array) > 1:\n        mid = len(array)//2\n        Left = array[:mid]\n        Right = array[mid:]\n        Merge_Sort(Left)\n        Merge_Sort(Right)\n        i = j = k = 0\n        while i < len(Left) and j < len(Right):\n            if Left[i] < Right[j]:",
+        "detail": "merge",
+        "documentation": {}
+    },
+    {
+        "label": "printarray",
+        "kind": 2,
+        "importPath": "merge",
+        "description": "merge",
+        "peekOfCode": "def printarray(array):\n    for i in range(len(array)):\n        print(array[i], end=\" \")\n    print()\nif __name__ == '__main__':\n    array = [7, 2, 5, 6, 3, 1, 8, 4]\n    print(\"Orignal Array is: \", array)\n    Merge_Sort(array)\n    print(\"Sorted array is: \")\n    printarray(array)",
+        "detail": "merge",
+        "documentation": {}
+    },
+    {
+        "label": "select",
+        "kind": 2,
+        "importPath": "musicplayer",
+        "description": "musicplayer",
+        "peekOfCode": "def select():\n    label.config(text = listBox.get(\"anchor\"))\n    mixer.music.load(rootpath + \"\\\\\" + listBox.get(\"anchor\"))\n    mixer.music.play()\ndef stop():\n    mixer.music.stop()\n    listBox.select_clear('active')\ndef play_next():\n    next_song = listBox.curselection()\n    next_song = next_song[0] + 1",
+        "detail": "musicplayer",
+        "documentation": {}
+    },
+    {
+        "label": "stop",
+        "kind": 2,
+        "importPath": "musicplayer",
+        "description": "musicplayer",
+        "peekOfCode": "def stop():\n    mixer.music.stop()\n    listBox.select_clear('active')\ndef play_next():\n    next_song = listBox.curselection()\n    next_song = next_song[0] + 1\n    next_song_name = listBox.get(next_song)\n    label.config(text = next_song_name)\n    mixer.music.load(rootpath + \"\\\\\" + next_song_name)\n    mixer.music.play()",
+        "detail": "musicplayer",
+        "documentation": {}
+    },
+    {
+        "label": "play_next",
+        "kind": 2,
+        "importPath": "musicplayer",
+        "description": "musicplayer",
+        "peekOfCode": "def play_next():\n    next_song = listBox.curselection()\n    next_song = next_song[0] + 1\n    next_song_name = listBox.get(next_song)\n    label.config(text = next_song_name)\n    mixer.music.load(rootpath + \"\\\\\" + next_song_name)\n    mixer.music.play()\n    listBox.select_clear(0, 'end')\n    listBox.activate(next_song)\n    listBox.select_set(next_song)",
+        "detail": "musicplayer",
+        "documentation": {}
+    },
+    {
+        "label": "play_prev",
+        "kind": 2,
+        "importPath": "musicplayer",
+        "description": "musicplayer",
+        "peekOfCode": "def play_prev():\n    prev_song = listBox.curselection()\n    prev_song = prev_song[0] - 1\n    prev_song_name = listBox.get(prev_song)\n    label.config(text = prev_song_name)\n    mixer.music.load(rootpath + \"\\\\\" + prev_song_name)\n    mixer.music.play()\n    listBox.select_clear(0, 'end')\n    listBox.activate(prev_song)\n    listBox.select_set(prev_song)",
+        "detail": "musicplayer",
+        "documentation": {}
+    },
+    {
+        "label": "pause_song",
+        "kind": 2,
+        "importPath": "musicplayer",
+        "description": "musicplayer",
+        "peekOfCode": "def pause_song():\n    if pauseButton[\"text\"] == \"pause\":\n        mixer.music.pause()\n        pauseButton[\"text\"] = \"play\"\n    else:\n        mixer.music.unpause()\n        pauseButton[\"text\"] = \"pause\"    \nlistBox = tk.Listbox(canvas, fg = \"cyan\", bg = \"black\", width = 100, font = ('poppins', 14))\nlistBox.pack(padx= 15, pady = 15)\nlabel = tk.Label(canvas, text = '', bg = 'black', fg = 'yellow', font = ('poppins', 18))",
+        "detail": "musicplayer",
+        "documentation": {}
+    },
+    {
+        "label": "canvas",
+        "kind": 5,
+        "importPath": "musicplayer",
+        "description": "musicplayer",
+        "peekOfCode": "canvas = tk.Tk()\ncanvas.title (\"Music Player\")\ncanvas.geometry(\"600x800\")\ncanvas.config(bg = 'black')\nrootpath = \"c:\\\\Users\\choud\\Music\"\npattern = \"*.mp3\"\nmixer.init()\nprev_img = tk.PhotoImage(file = \"prev_img.png\")\nstop_img = tk.PhotoImage(file = \"stop_img.png\")\nplay_img = tk.PhotoImage(file = \"play_img.png\")",
+        "detail": "musicplayer",
+        "documentation": {}
+    },
+    {
+        "label": "canvas.config(bg",
+        "kind": 5,
+        "importPath": "musicplayer",
+        "description": "musicplayer",
+        "peekOfCode": "canvas.config(bg = 'black')\nrootpath = \"c:\\\\Users\\choud\\Music\"\npattern = \"*.mp3\"\nmixer.init()\nprev_img = tk.PhotoImage(file = \"prev_img.png\")\nstop_img = tk.PhotoImage(file = \"stop_img.png\")\nplay_img = tk.PhotoImage(file = \"play_img.png\")\npause_img = tk.PhotoImage(file = \"pause_img.png\")\nnext_img = tk.PhotoImage(file = \"next_img.png\")\ndef select():",
+        "detail": "musicplayer",
+        "documentation": {}
+    },
+    {
+        "label": "rootpath",
+        "kind": 5,
+        "importPath": "musicplayer",
+        "description": "musicplayer",
+        "peekOfCode": "rootpath = \"c:\\\\Users\\choud\\Music\"\npattern = \"*.mp3\"\nmixer.init()\nprev_img = tk.PhotoImage(file = \"prev_img.png\")\nstop_img = tk.PhotoImage(file = \"stop_img.png\")\nplay_img = tk.PhotoImage(file = \"play_img.png\")\npause_img = tk.PhotoImage(file = \"pause_img.png\")\nnext_img = tk.PhotoImage(file = \"next_img.png\")\ndef select():\n    label.config(text = listBox.get(\"anchor\"))",
+        "detail": "musicplayer",
+        "documentation": {}
+    },
+    {
+        "label": "pattern",
+        "kind": 5,
+        "importPath": "musicplayer",
+        "description": "musicplayer",
+        "peekOfCode": "pattern = \"*.mp3\"\nmixer.init()\nprev_img = tk.PhotoImage(file = \"prev_img.png\")\nstop_img = tk.PhotoImage(file = \"stop_img.png\")\nplay_img = tk.PhotoImage(file = \"play_img.png\")\npause_img = tk.PhotoImage(file = \"pause_img.png\")\nnext_img = tk.PhotoImage(file = \"next_img.png\")\ndef select():\n    label.config(text = listBox.get(\"anchor\"))\n    mixer.music.load(rootpath + \"\\\\\" + listBox.get(\"anchor\"))",
+        "detail": "musicplayer",
+        "documentation": {}
+    },
+    {
+        "label": "prev_img",
+        "kind": 5,
+        "importPath": "musicplayer",
+        "description": "musicplayer",
+        "peekOfCode": "prev_img = tk.PhotoImage(file = \"prev_img.png\")\nstop_img = tk.PhotoImage(file = \"stop_img.png\")\nplay_img = tk.PhotoImage(file = \"play_img.png\")\npause_img = tk.PhotoImage(file = \"pause_img.png\")\nnext_img = tk.PhotoImage(file = \"next_img.png\")\ndef select():\n    label.config(text = listBox.get(\"anchor\"))\n    mixer.music.load(rootpath + \"\\\\\" + listBox.get(\"anchor\"))\n    mixer.music.play()\ndef stop():",
+        "detail": "musicplayer",
+        "documentation": {}
+    },
+    {
+        "label": "stop_img",
+        "kind": 5,
+        "importPath": "musicplayer",
+        "description": "musicplayer",
+        "peekOfCode": "stop_img = tk.PhotoImage(file = \"stop_img.png\")\nplay_img = tk.PhotoImage(file = \"play_img.png\")\npause_img = tk.PhotoImage(file = \"pause_img.png\")\nnext_img = tk.PhotoImage(file = \"next_img.png\")\ndef select():\n    label.config(text = listBox.get(\"anchor\"))\n    mixer.music.load(rootpath + \"\\\\\" + listBox.get(\"anchor\"))\n    mixer.music.play()\ndef stop():\n    mixer.music.stop()",
+        "detail": "musicplayer",
+        "documentation": {}
+    },
+    {
+        "label": "play_img",
+        "kind": 5,
+        "importPath": "musicplayer",
+        "description": "musicplayer",
+        "peekOfCode": "play_img = tk.PhotoImage(file = \"play_img.png\")\npause_img = tk.PhotoImage(file = \"pause_img.png\")\nnext_img = tk.PhotoImage(file = \"next_img.png\")\ndef select():\n    label.config(text = listBox.get(\"anchor\"))\n    mixer.music.load(rootpath + \"\\\\\" + listBox.get(\"anchor\"))\n    mixer.music.play()\ndef stop():\n    mixer.music.stop()\n    listBox.select_clear('active')",
+        "detail": "musicplayer",
+        "documentation": {}
+    },
+    {
+        "label": "pause_img",
+        "kind": 5,
+        "importPath": "musicplayer",
+        "description": "musicplayer",
+        "peekOfCode": "pause_img = tk.PhotoImage(file = \"pause_img.png\")\nnext_img = tk.PhotoImage(file = \"next_img.png\")\ndef select():\n    label.config(text = listBox.get(\"anchor\"))\n    mixer.music.load(rootpath + \"\\\\\" + listBox.get(\"anchor\"))\n    mixer.music.play()\ndef stop():\n    mixer.music.stop()\n    listBox.select_clear('active')\ndef play_next():",
+        "detail": "musicplayer",
+        "documentation": {}
+    },
+    {
+        "label": "next_img",
+        "kind": 5,
+        "importPath": "musicplayer",
+        "description": "musicplayer",
+        "peekOfCode": "next_img = tk.PhotoImage(file = \"next_img.png\")\ndef select():\n    label.config(text = listBox.get(\"anchor\"))\n    mixer.music.load(rootpath + \"\\\\\" + listBox.get(\"anchor\"))\n    mixer.music.play()\ndef stop():\n    mixer.music.stop()\n    listBox.select_clear('active')\ndef play_next():\n    next_song = listBox.curselection()",
+        "detail": "musicplayer",
+        "documentation": {}
+    },
+    {
+        "label": "listBox",
+        "kind": 5,
+        "importPath": "musicplayer",
+        "description": "musicplayer",
+        "peekOfCode": "listBox = tk.Listbox(canvas, fg = \"cyan\", bg = \"black\", width = 100, font = ('poppins', 14))\nlistBox.pack(padx= 15, pady = 15)\nlabel = tk.Label(canvas, text = '', bg = 'black', fg = 'yellow', font = ('poppins', 18))\nlabel.pack(pady = 15)\ntop =  tk.Frame(canvas, bg = \"black\")\ntop.pack(padx = 10, pady = 5, anchor ='center')\nprevButton = tk.Button(canvas, text = \"Prev\", image = prev_img, bg = 'black', borderwidth = 0, command = play_prev)\nprevButton.pack(pady = 15, in_ = top,side = 'left')\nstopButton = tk.Button(canvas, text = \"Stop\", image = stop_img, bg = 'black', borderwidth = 0, command = stop)\nstopButton.pack(pady = 15, in_ = top,side = 'left')",
+        "detail": "musicplayer",
+        "documentation": {}
+    },
+    {
+        "label": "label",
+        "kind": 5,
+        "importPath": "musicplayer",
+        "description": "musicplayer",
+        "peekOfCode": "label = tk.Label(canvas, text = '', bg = 'black', fg = 'yellow', font = ('poppins', 18))\nlabel.pack(pady = 15)\ntop =  tk.Frame(canvas, bg = \"black\")\ntop.pack(padx = 10, pady = 5, anchor ='center')\nprevButton = tk.Button(canvas, text = \"Prev\", image = prev_img, bg = 'black', borderwidth = 0, command = play_prev)\nprevButton.pack(pady = 15, in_ = top,side = 'left')\nstopButton = tk.Button(canvas, text = \"Stop\", image = stop_img, bg = 'black', borderwidth = 0, command = stop)\nstopButton.pack(pady = 15, in_ = top,side = 'left')\nplayButton = tk.Button(canvas, text = \"Stop\", image = play_img, bg = 'black', borderwidth = 0, command = select)\nplayButton.pack(pady = 15, in_ = top,side = 'left')",
+        "detail": "musicplayer",
+        "documentation": {}
+    },
+    {
+        "label": "label.pack(pady",
+        "kind": 5,
+        "importPath": "musicplayer",
+        "description": "musicplayer",
+        "peekOfCode": "label.pack(pady = 15)\ntop =  tk.Frame(canvas, bg = \"black\")\ntop.pack(padx = 10, pady = 5, anchor ='center')\nprevButton = tk.Button(canvas, text = \"Prev\", image = prev_img, bg = 'black', borderwidth = 0, command = play_prev)\nprevButton.pack(pady = 15, in_ = top,side = 'left')\nstopButton = tk.Button(canvas, text = \"Stop\", image = stop_img, bg = 'black', borderwidth = 0, command = stop)\nstopButton.pack(pady = 15, in_ = top,side = 'left')\nplayButton = tk.Button(canvas, text = \"Stop\", image = play_img, bg = 'black', borderwidth = 0, command = select)\nplayButton.pack(pady = 15, in_ = top,side = 'left')\npauseButton = tk.Button(canvas, text = \"Pause\", image = pause_img, bg = 'black', borderwidth = 0, command = pause_song)",
+        "detail": "musicplayer",
+        "documentation": {}
+    },
+    {
+        "label": "top",
+        "kind": 5,
+        "importPath": "musicplayer",
+        "description": "musicplayer",
+        "peekOfCode": "top =  tk.Frame(canvas, bg = \"black\")\ntop.pack(padx = 10, pady = 5, anchor ='center')\nprevButton = tk.Button(canvas, text = \"Prev\", image = prev_img, bg = 'black', borderwidth = 0, command = play_prev)\nprevButton.pack(pady = 15, in_ = top,side = 'left')\nstopButton = tk.Button(canvas, text = \"Stop\", image = stop_img, bg = 'black', borderwidth = 0, command = stop)\nstopButton.pack(pady = 15, in_ = top,side = 'left')\nplayButton = tk.Button(canvas, text = \"Stop\", image = play_img, bg = 'black', borderwidth = 0, command = select)\nplayButton.pack(pady = 15, in_ = top,side = 'left')\npauseButton = tk.Button(canvas, text = \"Pause\", image = pause_img, bg = 'black', borderwidth = 0, command = pause_song)\npauseButton.pack(pady = 15, in_ = top,side = 'left')",
+        "detail": "musicplayer",
+        "documentation": {}
+    },
+    {
+        "label": "top.pack(padx",
+        "kind": 5,
+        "importPath": "musicplayer",
+        "description": "musicplayer",
+        "peekOfCode": "top.pack(padx = 10, pady = 5, anchor ='center')\nprevButton = tk.Button(canvas, text = \"Prev\", image = prev_img, bg = 'black', borderwidth = 0, command = play_prev)\nprevButton.pack(pady = 15, in_ = top,side = 'left')\nstopButton = tk.Button(canvas, text = \"Stop\", image = stop_img, bg = 'black', borderwidth = 0, command = stop)\nstopButton.pack(pady = 15, in_ = top,side = 'left')\nplayButton = tk.Button(canvas, text = \"Stop\", image = play_img, bg = 'black', borderwidth = 0, command = select)\nplayButton.pack(pady = 15, in_ = top,side = 'left')\npauseButton = tk.Button(canvas, text = \"Pause\", image = pause_img, bg = 'black', borderwidth = 0, command = pause_song)\npauseButton.pack(pady = 15, in_ = top,side = 'left')\nnextButton = tk.Button(canvas, text = \"Next\", image = next_img, bg = 'black', borderwidth = 0, command = play_next)",
+        "detail": "musicplayer",
+        "documentation": {}
+    },
+    {
+        "label": "prevButton",
+        "kind": 5,
+        "importPath": "musicplayer",
+        "description": "musicplayer",
+        "peekOfCode": "prevButton = tk.Button(canvas, text = \"Prev\", image = prev_img, bg = 'black', borderwidth = 0, command = play_prev)\nprevButton.pack(pady = 15, in_ = top,side = 'left')\nstopButton = tk.Button(canvas, text = \"Stop\", image = stop_img, bg = 'black', borderwidth = 0, command = stop)\nstopButton.pack(pady = 15, in_ = top,side = 'left')\nplayButton = tk.Button(canvas, text = \"Stop\", image = play_img, bg = 'black', borderwidth = 0, command = select)\nplayButton.pack(pady = 15, in_ = top,side = 'left')\npauseButton = tk.Button(canvas, text = \"Pause\", image = pause_img, bg = 'black', borderwidth = 0, command = pause_song)\npauseButton.pack(pady = 15, in_ = top,side = 'left')\nnextButton = tk.Button(canvas, text = \"Next\", image = next_img, bg = 'black', borderwidth = 0, command = play_next)\nnextButton.pack(pady = 15, in_ = top,side = 'left')",
+        "detail": "musicplayer",
+        "documentation": {}
+    },
+    {
+        "label": "prevButton.pack(pady",
+        "kind": 5,
+        "importPath": "musicplayer",
+        "description": "musicplayer",
+        "peekOfCode": "prevButton.pack(pady = 15, in_ = top,side = 'left')\nstopButton = tk.Button(canvas, text = \"Stop\", image = stop_img, bg = 'black', borderwidth = 0, command = stop)\nstopButton.pack(pady = 15, in_ = top,side = 'left')\nplayButton = tk.Button(canvas, text = \"Stop\", image = play_img, bg = 'black', borderwidth = 0, command = select)\nplayButton.pack(pady = 15, in_ = top,side = 'left')\npauseButton = tk.Button(canvas, text = \"Pause\", image = pause_img, bg = 'black', borderwidth = 0, command = pause_song)\npauseButton.pack(pady = 15, in_ = top,side = 'left')\nnextButton = tk.Button(canvas, text = \"Next\", image = next_img, bg = 'black', borderwidth = 0, command = play_next)\nnextButton.pack(pady = 15, in_ = top,side = 'left')\nfor root, dirs, files in os.walk(rootpath):",
+        "detail": "musicplayer",
+        "documentation": {}
+    },
+    {
+        "label": "stopButton",
+        "kind": 5,
+        "importPath": "musicplayer",
+        "description": "musicplayer",
+        "peekOfCode": "stopButton = tk.Button(canvas, text = \"Stop\", image = stop_img, bg = 'black', borderwidth = 0, command = stop)\nstopButton.pack(pady = 15, in_ = top,side = 'left')\nplayButton = tk.Button(canvas, text = \"Stop\", image = play_img, bg = 'black', borderwidth = 0, command = select)\nplayButton.pack(pady = 15, in_ = top,side = 'left')\npauseButton = tk.Button(canvas, text = \"Pause\", image = pause_img, bg = 'black', borderwidth = 0, command = pause_song)\npauseButton.pack(pady = 15, in_ = top,side = 'left')\nnextButton = tk.Button(canvas, text = \"Next\", image = next_img, bg = 'black', borderwidth = 0, command = play_next)\nnextButton.pack(pady = 15, in_ = top,side = 'left')\nfor root, dirs, files in os.walk(rootpath):\n    for filename in fnmatch.filter(files, pattern):",
+        "detail": "musicplayer",
+        "documentation": {}
+    },
+    {
+        "label": "stopButton.pack(pady",
+        "kind": 5,
+        "importPath": "musicplayer",
+        "description": "musicplayer",
+        "peekOfCode": "stopButton.pack(pady = 15, in_ = top,side = 'left')\nplayButton = tk.Button(canvas, text = \"Stop\", image = play_img, bg = 'black', borderwidth = 0, command = select)\nplayButton.pack(pady = 15, in_ = top,side = 'left')\npauseButton = tk.Button(canvas, text = \"Pause\", image = pause_img, bg = 'black', borderwidth = 0, command = pause_song)\npauseButton.pack(pady = 15, in_ = top,side = 'left')\nnextButton = tk.Button(canvas, text = \"Next\", image = next_img, bg = 'black', borderwidth = 0, command = play_next)\nnextButton.pack(pady = 15, in_ = top,side = 'left')\nfor root, dirs, files in os.walk(rootpath):\n    for filename in fnmatch.filter(files, pattern):\n        listBox.insert('end', filename)",
+        "detail": "musicplayer",
+        "documentation": {}
+    },
+    {
+        "label": "playButton",
+        "kind": 5,
+        "importPath": "musicplayer",
+        "description": "musicplayer",
+        "peekOfCode": "playButton = tk.Button(canvas, text = \"Stop\", image = play_img, bg = 'black', borderwidth = 0, command = select)\nplayButton.pack(pady = 15, in_ = top,side = 'left')\npauseButton = tk.Button(canvas, text = \"Pause\", image = pause_img, bg = 'black', borderwidth = 0, command = pause_song)\npauseButton.pack(pady = 15, in_ = top,side = 'left')\nnextButton = tk.Button(canvas, text = \"Next\", image = next_img, bg = 'black', borderwidth = 0, command = play_next)\nnextButton.pack(pady = 15, in_ = top,side = 'left')\nfor root, dirs, files in os.walk(rootpath):\n    for filename in fnmatch.filter(files, pattern):\n        listBox.insert('end', filename)\ncanvas.mainloop()",
+        "detail": "musicplayer",
+        "documentation": {}
+    },
+    {
+        "label": "playButton.pack(pady",
+        "kind": 5,
+        "importPath": "musicplayer",
+        "description": "musicplayer",
+        "peekOfCode": "playButton.pack(pady = 15, in_ = top,side = 'left')\npauseButton = tk.Button(canvas, text = \"Pause\", image = pause_img, bg = 'black', borderwidth = 0, command = pause_song)\npauseButton.pack(pady = 15, in_ = top,side = 'left')\nnextButton = tk.Button(canvas, text = \"Next\", image = next_img, bg = 'black', borderwidth = 0, command = play_next)\nnextButton.pack(pady = 15, in_ = top,side = 'left')\nfor root, dirs, files in os.walk(rootpath):\n    for filename in fnmatch.filter(files, pattern):\n        listBox.insert('end', filename)\ncanvas.mainloop()",
+        "detail": "musicplayer",
+        "documentation": {}
+    },
+    {
+        "label": "pauseButton",
+        "kind": 5,
+        "importPath": "musicplayer",
+        "description": "musicplayer",
+        "peekOfCode": "pauseButton = tk.Button(canvas, text = \"Pause\", image = pause_img, bg = 'black', borderwidth = 0, command = pause_song)\npauseButton.pack(pady = 15, in_ = top,side = 'left')\nnextButton = tk.Button(canvas, text = \"Next\", image = next_img, bg = 'black', borderwidth = 0, command = play_next)\nnextButton.pack(pady = 15, in_ = top,side = 'left')\nfor root, dirs, files in os.walk(rootpath):\n    for filename in fnmatch.filter(files, pattern):\n        listBox.insert('end', filename)\ncanvas.mainloop()",
+        "detail": "musicplayer",
+        "documentation": {}
+    },
+    {
+        "label": "pauseButton.pack(pady",
+        "kind": 5,
+        "importPath": "musicplayer",
+        "description": "musicplayer",
+        "peekOfCode": "pauseButton.pack(pady = 15, in_ = top,side = 'left')\nnextButton = tk.Button(canvas, text = \"Next\", image = next_img, bg = 'black', borderwidth = 0, command = play_next)\nnextButton.pack(pady = 15, in_ = top,side = 'left')\nfor root, dirs, files in os.walk(rootpath):\n    for filename in fnmatch.filter(files, pattern):\n        listBox.insert('end', filename)\ncanvas.mainloop()",
+        "detail": "musicplayer",
+        "documentation": {}
+    },
+    {
+        "label": "nextButton",
+        "kind": 5,
+        "importPath": "musicplayer",
+        "description": "musicplayer",
+        "peekOfCode": "nextButton = tk.Button(canvas, text = \"Next\", image = next_img, bg = 'black', borderwidth = 0, command = play_next)\nnextButton.pack(pady = 15, in_ = top,side = 'left')\nfor root, dirs, files in os.walk(rootpath):\n    for filename in fnmatch.filter(files, pattern):\n        listBox.insert('end', filename)\ncanvas.mainloop()",
+        "detail": "musicplayer",
+        "documentation": {}
+    },
+    {
+        "label": "nextButton.pack(pady",
+        "kind": 5,
+        "importPath": "musicplayer",
+        "description": "musicplayer",
+        "peekOfCode": "nextButton.pack(pady = 15, in_ = top,side = 'left')\nfor root, dirs, files in os.walk(rootpath):\n    for filename in fnmatch.filter(files, pattern):\n        listBox.insert('end', filename)\ncanvas.mainloop()",
+        "detail": "musicplayer",
+        "documentation": {}
+    },
+    {
+        "label": "is_prime",
+        "kind": 2,
+        "importPath": "prime",
+        "description": "prime",
+        "peekOfCode": "def is_prime(num):\n    if num <= 1:\n        return False\n    for i in range(2, num):\n        if num % i == 0:\n            return False\n    return True\ndef print_first_n_primes(n):\n    num = 2\n    count = 0",
+        "detail": "prime",
+        "documentation": {}
+    },
+    {
+        "label": "print_first_n_primes",
+        "kind": 2,
+        "importPath": "prime",
+        "description": "prime",
+        "peekOfCode": "def print_first_n_primes(n):\n    num = 2\n    count = 0\n    while count < n:\n        if is_prime(num):\n            print(num)\n            count += 1\n        num += 1\nprint_first_n_primes(10)",
+        "detail": "prime",
+        "documentation": {}
+    },
+    {
+        "label": "selection_sort",
+        "kind": 2,
+        "importPath": "selection",
+        "description": "selection",
+        "peekOfCode": "def selection_sort(arr):\n    n = len(arr)\n    for i in range(n):\n        min_idx = i\n        for j in range(i+1, n):\n            if arr[min_idx] > arr[j]:\n                min_idx = j\n        arr[i], arr[min_idx] = arr[min_idx], arr[i]\n    return arr\narr = [64, 25, 12, 22, 11]",
+        "detail": "selection",
+        "documentation": {}
+    },
+    {
+        "label": "arr",
+        "kind": 5,
+        "importPath": "selection",
+        "description": "selection",
+        "peekOfCode": "arr = [64, 25, 12, 22, 11]\nprint(\"Original array:\", arr)\nprint(\"Sorted array:\", selection_sort(arr))",
+        "detail": "selection",
+        "documentation": {}
+    },
+    {
+        "label": "Game",
+        "kind": 6,
+        "importPath": "speed",
+        "description": "speed",
+        "peekOfCode": "class Game:\n    def __init__(self):\n        self.w=750\n        self.h=500\n        self.reset=True\n        self.active = False\n        self.input_text=''\n        self.word = ''\n        self.time_start = 0\n        self.total_time = 0",
+        "detail": "speed",
+        "documentation": {}
+    },
+    {
+        "label": "game",
+        "kind": 2,
+        "importPath": "speedtest",
+        "description": "speedtest",
+        "peekOfCode": "def game():\n\tglobal x\n\t# loop for destroying the window\n\t# after on test\n\tif x == 0:\n\t\twindow.destroy()\n\t\tx = x+1\n\t# defining function for results of test\n\tdef check_result():\n\t\tif entry.get() == words[word]:",
+        "detail": "speedtest",
+        "documentation": {}
+    },
+    {
+        "label": "window",
+        "kind": 5,
+        "importPath": "speedtest",
+        "description": "speedtest",
+        "peekOfCode": "window = Tk()\n# the size of the window is defined\nwindow.geometry(\"450x200\")\nx = 0\n# defining the function for the test\ndef game():\n\tglobal x\n\t# loop for destroying the window\n\t# after on test\n\tif x == 0:",
+        "detail": "speedtest",
+        "documentation": {}
+    },
+    {
+        "label": "x",
+        "kind": 5,
+        "importPath": "speedtest",
+        "description": "speedtest",
+        "peekOfCode": "x = 0\n# defining the function for the test\ndef game():\n\tglobal x\n\t# loop for destroying the window\n\t# after on test\n\tif x == 0:\n\t\twindow.destroy()\n\t\tx = x+1\n\t# defining function for results of test",
+        "detail": "speedtest",
+        "documentation": {}
+    },
+    {
+        "label": "\t\tx",
+        "kind": 5,
+        "importPath": "speedtest",
+        "description": "speedtest",
+        "peekOfCode": "\t\tx = x+1\n\t# defining function for results of test\n\tdef check_result():\n\t\tif entry.get() == words[word]:\n\t\t\t# here start time is when the window\n\t\t\t# is opened and end time is when\n\t\t\t# window is destroyed\n\t\t\tend = timer()\n\t\t\t# we deduct the start time from end\n\t\t\t# time and calculate results using",
+        "detail": "speedtest",
+        "documentation": {}
+    },
+    {
+        "label": "\t\t\tend",
+        "kind": 5,
+        "importPath": "speedtest",
+        "description": "speedtest",
+        "peekOfCode": "\t\t\tend = timer()\n\t\t\t# we deduct the start time from end\n\t\t\t# time and calculate results using\n\t\t\t# timeit function\n\t\t\tprint(end-start)\n\t\telse:\n\t\t\tprint(\"Wrong Input\")\n\twords = ['programming', 'coding', 'algorithm',\n\t\t\t'systems', 'python', 'software']\n\t# Give random words for testing the speed of user",
+        "detail": "speedtest",
+        "documentation": {}
+    },
+    {
+        "label": "\twords",
+        "kind": 5,
+        "importPath": "speedtest",
+        "description": "speedtest",
+        "peekOfCode": "\twords = ['programming', 'coding', 'algorithm',\n\t\t\t'systems', 'python', 'software']\n\t# Give random words for testing the speed of user\n\tword = random.randint(0, (len(words)-1))\n\t# start timer using timeit function\n\tstart = timer()\n\twindows = Tk()\n\twindows.geometry(\"450x200\")\n\t# use label method of tkinter for labeling in window\n\tx2 = Label(windows, text=words[word], font=\"times 20\")",
+        "detail": "speedtest",
+        "documentation": {}
+    },
+    {
+        "label": "\tword",
+        "kind": 5,
+        "importPath": "speedtest",
+        "description": "speedtest",
+        "peekOfCode": "\tword = random.randint(0, (len(words)-1))\n\t# start timer using timeit function\n\tstart = timer()\n\twindows = Tk()\n\twindows.geometry(\"450x200\")\n\t# use label method of tkinter for labeling in window\n\tx2 = Label(windows, text=words[word], font=\"times 20\")\n\t# place of labeling in window\n\tx2.place(x=150, y=10)\n\tx3 = Label(windows, text=\"Start Typing\", font=\"times 20\")",
+        "detail": "speedtest",
+        "documentation": {}
+    },
+    {
+        "label": "\tstart",
+        "kind": 5,
+        "importPath": "speedtest",
+        "description": "speedtest",
+        "peekOfCode": "\tstart = timer()\n\twindows = Tk()\n\twindows.geometry(\"450x200\")\n\t# use label method of tkinter for labeling in window\n\tx2 = Label(windows, text=words[word], font=\"times 20\")\n\t# place of labeling in window\n\tx2.place(x=150, y=10)\n\tx3 = Label(windows, text=\"Start Typing\", font=\"times 20\")\n\tx3.place(x=10, y=50)\n\tentry = Entry(windows)",
+        "detail": "speedtest",
+        "documentation": {}
+    },
+    {
+        "label": "\twindows",
+        "kind": 5,
+        "importPath": "speedtest",
+        "description": "speedtest",
+        "peekOfCode": "\twindows = Tk()\n\twindows.geometry(\"450x200\")\n\t# use label method of tkinter for labeling in window\n\tx2 = Label(windows, text=words[word], font=\"times 20\")\n\t# place of labeling in window\n\tx2.place(x=150, y=10)\n\tx3 = Label(windows, text=\"Start Typing\", font=\"times 20\")\n\tx3.place(x=10, y=50)\n\tentry = Entry(windows)\n\tentry.place(x=280, y=55)",
+        "detail": "speedtest",
+        "documentation": {}
+    },
+    {
+        "label": "\tx2",
+        "kind": 5,
+        "importPath": "speedtest",
+        "description": "speedtest",
+        "peekOfCode": "\tx2 = Label(windows, text=words[word], font=\"times 20\")\n\t# place of labeling in window\n\tx2.place(x=150, y=10)\n\tx3 = Label(windows, text=\"Start Typing\", font=\"times 20\")\n\tx3.place(x=10, y=50)\n\tentry = Entry(windows)\n\tentry.place(x=280, y=55)\n\t# buttons to submit output and check results\n\tb2 = Button(windows, text=\"Done\",\n\t\t\t\tcommand=check_result, width=12, bg='grey')",
+        "detail": "speedtest",
+        "documentation": {}
+    },
+    {
+        "label": "\tx3",
+        "kind": 5,
+        "importPath": "speedtest",
+        "description": "speedtest",
+        "peekOfCode": "\tx3 = Label(windows, text=\"Start Typing\", font=\"times 20\")\n\tx3.place(x=10, y=50)\n\tentry = Entry(windows)\n\tentry.place(x=280, y=55)\n\t# buttons to submit output and check results\n\tb2 = Button(windows, text=\"Done\",\n\t\t\t\tcommand=check_result, width=12, bg='grey')\n\tb2.place(x=150, y=100)\n\tb3 = Button(windows, text=\"Try Again\",\n\t\t\t\tcommand=game, width=12, bg='grey')",
+        "detail": "speedtest",
+        "documentation": {}
+    },
+    {
+        "label": "\tentry",
+        "kind": 5,
+        "importPath": "speedtest",
+        "description": "speedtest",
+        "peekOfCode": "\tentry = Entry(windows)\n\tentry.place(x=280, y=55)\n\t# buttons to submit output and check results\n\tb2 = Button(windows, text=\"Done\",\n\t\t\t\tcommand=check_result, width=12, bg='grey')\n\tb2.place(x=150, y=100)\n\tb3 = Button(windows, text=\"Try Again\",\n\t\t\t\tcommand=game, width=12, bg='grey')\n\tb3.place(x=250, y=100)\n\twindows.mainloop()",
+        "detail": "speedtest",
+        "documentation": {}
+    },
+    {
+        "label": "\tb2",
+        "kind": 5,
+        "importPath": "speedtest",
+        "description": "speedtest",
+        "peekOfCode": "\tb2 = Button(windows, text=\"Done\",\n\t\t\t\tcommand=check_result, width=12, bg='grey')\n\tb2.place(x=150, y=100)\n\tb3 = Button(windows, text=\"Try Again\",\n\t\t\t\tcommand=game, width=12, bg='grey')\n\tb3.place(x=250, y=100)\n\twindows.mainloop()\nx1 = Label(window, text=\"Lets start playing..\", font=\"times 20\")\nx1.place(x=10, y=50)\nb1 = Button(window, text=\"Go\", command=game, width=12, bg='grey')",
+        "detail": "speedtest",
+        "documentation": {}
+    },
+    {
+        "label": "\tb3",
+        "kind": 5,
+        "importPath": "speedtest",
+        "description": "speedtest",
+        "peekOfCode": "\tb3 = Button(windows, text=\"Try Again\",\n\t\t\t\tcommand=game, width=12, bg='grey')\n\tb3.place(x=250, y=100)\n\twindows.mainloop()\nx1 = Label(window, text=\"Lets start playing..\", font=\"times 20\")\nx1.place(x=10, y=50)\nb1 = Button(window, text=\"Go\", command=game, width=12, bg='grey')\nb1.place(x=150, y=100)\n# calling window\nwindow.mainloop()",
+        "detail": "speedtest",
+        "documentation": {}
+    },
+    {
+        "label": "x1",
+        "kind": 5,
+        "importPath": "speedtest",
+        "description": "speedtest",
+        "peekOfCode": "x1 = Label(window, text=\"Lets start playing..\", font=\"times 20\")\nx1.place(x=10, y=50)\nb1 = Button(window, text=\"Go\", command=game, width=12, bg='grey')\nb1.place(x=150, y=100)\n# calling window\nwindow.mainloop()",
+        "detail": "speedtest",
+        "documentation": {}
+    },
+    {
+        "label": "b1",
+        "kind": 5,
+        "importPath": "speedtest",
+        "description": "speedtest",
+        "peekOfCode": "b1 = Button(window, text=\"Go\", command=game, width=12, bg='grey')\nb1.place(x=150, y=100)\n# calling window\nwindow.mainloop()",
+        "detail": "speedtest",
+        "documentation": {}
+    }
+]
